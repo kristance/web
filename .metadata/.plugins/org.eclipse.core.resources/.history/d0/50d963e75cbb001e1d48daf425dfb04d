@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>주민등록번호 유효성 검사</title>
+</head>
+<body>
+
+<form action="juminFormOK.jsp" method="post">
+	<input type="text" name="j1" maxlength="6" placeholder="주민등록번호 앞자리"/>
+	-
+	<input type="text" name="j2" maxlength="7" placeholder="주민등록번호 뒷자리"/>
+</form>
+
+
+</body>
+</html>

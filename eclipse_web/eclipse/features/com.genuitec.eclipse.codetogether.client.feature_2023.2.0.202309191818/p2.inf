@@ -1,0 +1,6 @@
+provides.0.namespace=com.genuitec.codetogether
+provides.0.name=codetogether.client
+provides.0.version=$version$
+requires.0.namespace=org.eclipse.equinox.p2.iu
+requires.0.name=org.eclipse.platform
+requires.0.range=4.8.0

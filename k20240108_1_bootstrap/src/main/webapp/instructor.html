@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>부트스트랩 웹페이지</title>
+<link rel="icon" href="./images/logo.png"/>
+<meta name="viewport" content="width=device-width, inicial-scale=1.0">
+<link rel="stylesheet" href="./css/bootstrap.min.css"/>
+
+<style type="text/css">
+	.jumbotron {
+		background-image: url("./images/jumbotronBackground.jpg");
+		background-size: cover;
+		color: white;
+		text-shadow: 0.2em 0.2em 0.2em black;
+	}
+</style>
+
+<script type="text/javascript" src="./js/jquery-3.7.1.js"></script>
+<script type="text/javascript" src="./js/bootstrap.js"></script>
+
+</head>
+<body>
+ 
+ <header>
+ 	<nav class="container navbar navbar-inverse">
+ 		<div class="container-fluid">
+ 		
+ 			<div class="navbar-header">
+ 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-toggle" aria-expanded="false">
+ 					<span class="sr-only"></span>
+	 				<span class="icon-bar"></span>
+	 				<span class="icon-bar"></span>
+ 					<span class="icon-bar"></span>
+ 				</button>
+ 			</div>
+ 		
+ 		<div class="collapse navbar-collapse" id="nav-toggle">
+ 		
+ 			<ul class="nav navbar-nav">
+ 				<li><a href="./index5.html">메인으로</a></li>
+ 				<li><a href="./instructor.html">강사</a></li>
+ 				<li class="dropdown">
+ 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+ 						aria-expanded="false">
+ 						강의보기
+ 						<span class="caret"></span>
+ 					</a>
+ 					<ul class="dropdown-menu">
+		 				<li><a href="./lecture.html?lectureName=C">C언어</a></li>
+		 				<li><a href="./lecture.html?lectureName=Java">java</a></li>
+		 				<li><a href="./lecture.html?lectureName=Android">android</a></li>
+ 					</ul>
+ 				</li>
+ 			</ul>
+ 			
+ 			<form class="navbar-form navbar-right" action="?">
+ 				<div class="form-group">
+ 					<input class="form-control" type="text" placeholder="Insert for Search Content">
+ 				</div>
+ 			<button class="btn btn-info" type="button">검색</button>
+ 			</form>
+ 			
+		 		<ul class="nav navbar-nav navbar-right">
+		 			<li class="dropdown">
+		 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+		 						aria-expanded="false">
+		 						들어가보기
+		 						<span class="caret"></span>
+		 					</a>
+		 					<ul class="dropdown-menu">
+				 				<li><a href="./loginForm.html">로그인</a></li>
+				 				<li><a href="./registerForm.html">회원가입</a></li>
+		 					</ul>
+		 				</li>
+		 		</ul>
+	 		</div>
+ 		</div>
+ 	</nav> 
+ </header>
+ 
+ <div class="container">
+ 	<!-- 여기부터 -->
+ 	<div class="row">
+		<div class="col-lg-12">
+		
+			<div class="panel panel-danger">
+			
+				<div class="panel-heading">
+					<h3 class="panel-title">
+						<span class="glyphicon glyphicon-asterisk"></span>&nbsp;루피 강사
+					</h3>
+				</div> <!-- panel-heading -->
+				
+				<div class="panel-body">
+					<div class="media">
+						<div class="media-left">
+							<img class="media-object" src="./images/rupy.jpg" width="130em">
+						</div>
+						
+						<div class="media-body">
+							<h4 class="media-heading">루피 강사</h4>
+							헤헤헤헤헤. 코딩 재밌다.....<br/>
+							 코딩, 너두 할 수 있어!!!!
+						</div>
+					</div>
+				</div> <!-- panel-body -->
+				
+			<table class="table">
+				<thead>
+					<tr>
+						<td>강사명</td>
+						<td>강의번호</td>
+						<td>강사제목</td>
+						<td>강의날짜</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>루피</td>
+						<td>1</td>
+						<td><a href="./lecture.html?lectureName=C">C 기초 프로그래밍</a></td>
+						<td>2024.01.01</td>
+					</tr>
+					<tr>
+						<td>루피</td>
+						<td>2</td>
+						<td><a href="./lecture.html?lectureName=Java">Java 기초 프로그래밍</a></td>
+						<td>2024.02.01</td>
+					</tr>
+					<tr>
+						<td>루피</td>
+						<td>3</td>
+						<td><a href="./lecture.html?lectureName=Android">Android 기초 프로그래밍</a></td>
+						<td>2024.01.02</td>
+					</tr>
+				</tbody>			
+			</table>
+			</div> <!-- panel panel-danger -->
+		</div> 	<!-- col-lg-12 -->
+ 	</div><!-- row -->
+ 	
+ 	<div class="row">
+		<div class="col-lg-12">
+		
+			<div class="panel panel-danger">
+			
+				<div class="panel-heading">
+					<h3 class="panel-title">
+						<span class="glyphicon glyphicon-ok"></span>&nbsp; 자격사항
+					</h3>
+				</div> <!-- panel-heading -->
+				
+				<div class="panel-body">
+					<div class="media">
+						
+						<div class="media-body">
+						<ol type="i">
+							<li>
+							운전면허 2종 보통<br/>
+							</li>
+							<li>
+							크롱이 놀리기 자격증 1종<br/>
+							</li>
+							<li>
+							뽀로로 비웃기 1종
+							</li>
+							<li>
+							노래 못 부르기 1등
+							</li>
+						</ol>
+						</div>
+					</div>
+				</div> <!-- panel-body -->
+				
+			</div><!-- panel panel-heading -->
+		</div><!-- col-lg-12 -->
+	</div><!-- row -->
+ 	<!-- 여기까지 instructor.html에 코딩해 넣는 내용-->
+ </div> <!-- container -->
+ <footer>
+ 	<div class="container">
+ 		
+ 		<div class="row" style="background-color: darkgrey; color: #FFFFFF">
+ 			
+ 			<div class="col-sm-2 text-center">
+ 				<h5>Copyright &copy;</h5>
+ 				<h5>뽀로로(Pororo)</h5>
+ 			</div>
+ 			
+ 			<div class="col-sm-4">
+ 				<h5>대표자 소개</h5>
+ 				<h5>
+ 					노는게 제일 좋은 뽀로로입니다.<br/>
+ 					코딩도 열심히 가르치는 뽀로로입니다.
+ 				</h5>
+ 			</div>
+ 			
+ 			<div class="col-sm-2 text-center">
+ 				<h5>내비게이션</h5>
+ 				<div class="list-group">
+ 					<a href="./index5.html" class="list-group-item">메인으로</a>
+ 					<a href="./instructor.html" class="list-group-item">강사</a>
+ 					<a href="./lecture.html?lectureName=C" class="list-group-item">강의보기</a>
+ 				</div>
+ 			</div>
+ 			
+ 			<div class="col-sm-2 text-center">
+ 				<h5>SNS</h5>
+ 				<div class="list-group">
+ 					<a href="https://www.facebook.com" class="list-group-item">Facebook</a>
+ 					<a href="https://www.youtube.com" class="list-group-item">Youtube</a>
+ 					<a href="https://www.instagram.com" class="list-group-item">Instagram</a>
+ 				</div>
+ 			</div>
+ 			
+ 			<div class="col-sm-2 text-center">
+ 				<h5>
+ 					<span class="glyphicon glyphicon-forward"></span>&nbsp;&nbsp;by 뽀로로
+ 				</h5>
+ 			</div>
+ 			
+ 		</div>
+ 	</div> <!-- container -->
+ </footer>
+
+</body>
+</html>

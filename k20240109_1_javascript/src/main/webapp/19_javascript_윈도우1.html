@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>javascript 윈도우1</title>
+
+<script type="text/javascript" src="./js/javascript19.js" defer="defer"></script>
+
+<style type="text/css">
+
+	#register {
+		/* id 속성이 register로 지정된 div 태그를 화면에 표시하지 않는다. */
+		display: none;
+		
+		border: 2px solid thistle;
+		background-color: lavenderblush;
+		padding: 10px;
+		position: absolute;
+		top:200px;
+		left: 400px;
+	} 
+
+</style>
+
+</head>
+<body>
+
+19_javascript_윈도우1.html
+
+<div>
+	<h1>팝업창 만들기 - 새 창</h1>
+	<input id="parentID" type="text"/>
+	<input type="button" name="btn" value="아이디 중복 검사" onclick="openWin()"/><br/>
+	<input id="requestID" type="text" /><br/>
+	<input type="text" name="requestID"/><br/>
+	<input type="text"/><br/>
+	<input class="requestID" type="text"/><br/>
+	<h1></h1>
+	
+	<h1>팝업창 만들기 - 현재 창</h1>
+	<input type="button" name="btn" value="로그인" onclick="registerForm()"/>
+</div>
+
+<!-- 로그인 폼 -->
+<div id="register">
+	<form action="?">
+		<table>
+			<tr>
+				<th>아이디</th>
+				<td>
+					<input type="text" name="id" readonly="readonly" onclick="idChk()"/>
+					<input type="button" value="중복체크" onclick="idCheck()"/>
+				</td>
+			</tr>
+			<tr>
+				<th>비밀번호</th>
+				<td>
+					<input type="password" name="password"/>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<input type="button" value="확인" onclick="closeWin()"/>
+				</td>
+			</tr>
+		</table>
+	</form>
+</div>
+
+</body>
+</html>

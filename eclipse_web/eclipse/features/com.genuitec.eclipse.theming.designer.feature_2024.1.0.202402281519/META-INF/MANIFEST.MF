@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Built-By: runner
+Created-By: Apache Maven 3.8.8
+Build-Jdk: 1.8.0_402
+
+Name: feature.xml
+SHA-256-Digest: ZWasi6yqbxwjU7IUHNfmccoAp0byPThwabGFww7xMXo=
+
+Name: feature.properties
+SHA-256-Digest: NvbxeBBaUWhWLCZRkw35Ur/y7MYnnl5EDEYa0JY4O8U=
+
+Name: license.html
+SHA-256-Digest: zRxd9idHdUrkVCcwppIpH+7LYCRX4ESzmHIAWJWDOvM=
+

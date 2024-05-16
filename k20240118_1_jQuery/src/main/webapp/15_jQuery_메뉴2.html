@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery - 메뉴2</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="./js/jQuery15.js" defer> </script>
+
+<style type="text/css">
+
+	ul {
+		list-style: none;2
+	}
+	
+	.main_menu > li {
+		width: 250px;
+		background: lemonchiffon;
+	}
+	
+	.sub_menu1 {
+		cursor: pointer;
+	}
+	
+	.sub_menu2 {
+		display: none;
+	}
+
+</style>
+
+</head>
+<body>
+
+15_jQuery_메뉴2.html
+
+<h2>메뉴2</h2>
+
+<ul class="main_menu" type="square">
+	<li class="sub_menu1">
+		<b>1. css 선택자</b>
+		<ul class="sub_menu2" type="circle">
+			<li>tag로 선택하기</li>
+			<li>id로 선택하기</li>
+			<li>class로 선택하기</li>
+			<li>자식 선택자로 선택하기</li>
+			<li>자손 선택자로 선택하기</li>
+			<li>nth-child로 선택하기</li>
+			<li>first-child로 선택하기</li>
+			<li>last-child로 선택하기</li>
+		</ul>
+	</li>
+	<li class="sub_menu1">
+		<b>2. 속성 선택자</b>
+		<ul class="sub_menu2" type="disc">
+			<li>[attr]</li>
+			<li>[attr=value]</li>
+			<li>[attr!=value]</li>
+		</ul>
+	</li>
+	<li class="sub_menu1">
+		<b>3. 폼 선택자</b>
+		<ul class="sub_menu2" type="disc">
+			<li>input:text</li>
+			<li>input:password</li>
+			<li>input:submit</li>
+		</ul>
+	</li>
+	<li class="sub_menu1">
+		<b>4. 사용자 선택자</b>
+		<ul class="sub_menu2" type="disc">
+			<li>first</li>
+			<li>eq</li>
+			<li>slice</li>
+			<li>last</li>
+		</ul>
+	</li>
+</ul>
+
+
+
+</body>
+</html>

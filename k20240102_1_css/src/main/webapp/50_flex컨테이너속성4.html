@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>flex 컨테이너 속성 - 교차(보조)축</title>
+
+<style type="text/css">
+
+	/*
+		flex-direction 속성은 주 축을 설정하고(row(x축), column(y축)) align-content 속성은 주 축에 교차하는
+		교차(보조)축을 설정한다.
+		flex-direction 속성에 row를 지정하면 주 축은 x축, 교차 축은 y축이 되고, column을 지정하면 주 축은
+		y축, 교차 축은 x축이 된다.
+		
+		align-content : 교차 축의 item 정렬 방법을 지정한다. item이 2줄 이상으로 표시되는 경우 사용한다.
+			-> flex-wrap 속성값이 wrap으로 지정되어 있어야 제대로 동작한다.
+			-> stretch : item의 height 속성값이 지정되지 않을 경우 컨테이너의 교차축에 가득차게 item을 늘려준다.
+			-> flex-start : 기본값, flex-direction 속성이 row면 item을 컨테이너 위쪽에 맞추고, column이면 컨테이너 왼쪽에 맞춘다.
+			-> flex-end :  flex-direction 속성이 row면 item을 컨테이너 아래쪽에 맞추고, column이면 컨테이너 오른쪽에 맞춘다.
+			-> center : item을 교차축의 가운데로 맞춘다.
+			-> space-between : 첫번째 item은 맨 앞, 마지막 item은 맨 마지막에 배치하고 item의 간격을 균등하게
+				분할해서 배치한다.
+			-> space-around : 모든 item의 여백을 균등하게 지정해서 배치한다.
+	*/
+	
+	
+	.container1 {
+		width : 400px;
+		height : 300px;
+		border: 4px solid black;
+		font-size: 25px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start; /* 주 축의 item 정렬 방법 */
+		flex-wrap:wrap; /* align-content 속성이 적용되려면 반드시 지정해야한다. */
+		
+		align-content: stretch; 
+	}
+	
+	.container1 > .item {
+		width: 100px;
+		/* height: 100px; */ /* align-content : stretch는 item의 높이가 없어야한다. */
+		border: 4px solid red;
+		border-radius: 19px;
+		background-color:lightyellow;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.container2 {
+		width : 400px;
+		height : 300px;
+		border: 4px solid black;
+		font-size: 25px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		flex-wrap:wrap;
+		
+		align-content: flex-start; 
+	}
+	
+	.container2 > .item {
+		width: 100px;
+		height: 100px;
+		border: 4px solid red;
+		border-radius: 19px;
+		background-color:lightyellow;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.container3 {
+		width : 400px;
+		height : 300px;
+		border: 4px solid black;
+		font-size: 25px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		flex-wrap:wrap;
+		
+		align-content: flex-end; 
+	}
+	
+	.container3 > .item {
+		width: 100px;
+		height: 100px;
+		border: 4px solid red;
+		border-radius: 19px;
+		background-color:lightyellow;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.container4 {
+		width : 400px;
+		height : 300px;
+		border: 4px solid black;
+		font-size: 25px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		flex-wrap:wrap;
+		
+		align-content: center; 
+	}
+	
+	.container4 > .item {
+		width: 100px;
+		height: 100px;
+		border: 4px solid red;
+		border-radius: 19px;
+		background-color:lightyellow;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.container5 {
+		width : 250px;
+		height : 500px;
+		border: 4px solid black;
+		font-size: 25px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		flex-wrap:wrap;
+		
+		align-content: space-between; 
+	}
+	
+	.container5 > .item {
+		width: 100px;
+		height: 100px;
+		border: 4px solid red;
+		border-radius: 19px;
+		background-color:lightyellow;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.container6 {
+		width : 250px;
+		height : 500px;
+		border: 4px solid black;
+		font-size: 25px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		flex-wrap:wrap;
+		
+		align-content: space-around; 
+	}
+	
+	.container6 > .item {
+		width: 100px;
+		height: 100px;
+		border: 4px solid red;
+		border-radius: 19px;
+		background-color:lightyellow;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+</style>
+
+</head>
+<body>
+
+stretch
+<div class="container1">
+	<div class="item">1</div>
+	<div class="item">2</div>
+	<div class="item">3</div>
+	<div class="item">4</div>
+	<div class="item">5</div>
+</div><br/>
+
+flex-start
+<div class="container2">
+	<div class="item">1</div>
+	<div class="item">2</div>
+	<div class="item">3</div>
+	<div class="item">4</div>
+	<div class="item">5</div>
+</div><br/>
+
+flex-end
+<div class="container3">
+	<div class="item">1</div>
+	<div class="item">2</div>
+	<div class="item">3</div>
+	<div class="item">4</div>
+	<div class="item">5</div>
+</div><br/>
+
+center
+<div class="container4">
+	<div class="item">1</div>
+	<div class="item">2</div>
+	<div class="item">3</div>
+	<div class="item">4</div>
+	<div class="item">5</div>
+</div><br/>
+
+space-between
+<div class="container5">
+	<div class="item">1</div>
+	<div class="item">2</div>
+	<div class="item">3</div>
+	<div class="item">4</div>
+	<div class="item">5</div>
+</div><br/>
+
+space-around
+<div class="container6">
+	<div class="item">1</div>
+	<div class="item">2</div>
+	<div class="item">3</div>
+	<div class="item">4</div>
+	<div class="item">5</div>
+</div><br/>
+
+
+</body>
+</html>

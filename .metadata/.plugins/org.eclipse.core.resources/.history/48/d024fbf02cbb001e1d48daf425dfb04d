@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="k20240125_1_errorPage">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
+        <property name="context-root" value="k20240125_1_errorPage"/>
+        <property name="java-output-path" value="/k20240125_1_errorPage/build/classes"/>
+    </wb-module>
+</project-modules>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>grid item 함수 - repeat, minmax, fit-content</title>
+<style type="text/css">
+	/*
+		repeat() : 행, 열의 크기 정의를 반복한다.
+			-> 반복 횟수와 행 또는 열의 크기를 인수로 사용한다.
+		minmax : 행, 열의 최소, 최대 크기를 지정한다.
+			-> 첫번째 인수는 최소값이고, 두번쨰 인수는 최대값이 들어간다.
+			-> 일반 요소 min-width와 max-width 속성을 지정하는 것과 유사한 기능이 실행된다.
+		fit-content : 행, 열의 크기를 item이 포함하는 내용의 크기로 맞춘다.
+			-> 내용이 표시될 최대 크기는 함수의 인수로 지정한다.
+	*/
+	
+	
+	.container1 {
+		width: 900px;
+		height: 200px;
+		border: 4px solid black;
+		display: grid;
+		
+		/* grid-template-rows: 1fr; */
+		/* grid-template-columns: 100px 100px 100px 100px 100px 100px; */
+		/* grid-template-columns: repeat(6, 100px); */
+		
+		/* grid-template-rows: [row-start] 200px [row-end row-start] 200px [row-end]; */
+		/* grid-template-rows: repeat(2, [row-start] 200px [row-end]);*/
+		/* grid-template-columns : 1fr 2fr 1fr 2fr 1fr 2fr 1fr 2fr 1fr 2fr; */
+		grid-template-columns : repeat(6, 1fr 2fr);
+	}
+	
+	.container1 > .item {
+		border: 4px solid crimson;
+		font-size : 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.container2 {
+		width: 200px;
+		height: 200px;
+		border: 4px solid black;
+		display: grid;
+		
+		/*
+			컨테이너의 너비가 item 너비의 합계보다 작아져도 각 열의 너비는 최소값인 100px, 200px이 유지된다.
+			컨테이너의 너비가 커져서 각 열이 충분히 표시될 경우 1 : 1 비율이 유지된다.
+		*/
+		grid-template-columns : minmax(100px, 1fr) minmax(200px, 1fr);
+		
+	}
+	
+	.container2 > .item {
+		border: 4px solid crimson;
+		font-size : 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.container3 {
+		/* width: 200px; */
+		height: 200px;
+		border: 4px solid black;
+		display: grid;
+		
+		grid-template-rows: repeat(2, 100px);
+		grid-template-columns : repeat(2, fit-content(500px));
+		
+	}
+	
+	.container3 > .item {
+		border: 4px solid crimson;
+	}
+
+</style>
+
+
+</head>
+<body>
+
+<div class="container1">
+	<div class="item">1</div>
+	<div class="item">2</div>
+	<div class="item">3</div>
+	<div class="item">4</div>
+	<div class="item">5</div>
+	<div class="item">6</div>
+	<div class="item">7</div>
+	<div class="item">8</div>
+	<div class="item">9</div>
+</div><br/>
+
+<div class="container2">
+	<div class="item">1</div>
+	<div class="item">2</div>
+	<div class="item">3</div>
+	<div class="item">4</div>
+</div><br/>
+
+<div class="container3">
+	<div class="item">hellow world</div>
+	<div class="item">Learn what HTML landmark roles are, how they improve accessibility, and how you can include them on your website effectively.</div>
+	<div class="item">3</div>
+	<div class="item">4</div>
+</div><br/>
+	
+
+</body>
+</html>

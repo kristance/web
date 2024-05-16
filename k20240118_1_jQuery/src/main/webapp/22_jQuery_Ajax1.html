@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery - Ajax1</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="./js/jQuery22.js" defer> </script>
+
+<style type="text/css">
+	
+	* {
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	body {
+		width: 800px;
+		margin: 50px auto;	
+	}
+	
+	fieldset {
+		width:  250px;
+		height: 50px;
+		padding: 10px;
+		margin: 20px 0px;
+		background-color: thistle;
+	
+	}
+	
+	input {
+		padding : 5px 10px;
+		border-radius: 5px;
+	}
+	
+	table {
+		width: 450px;
+		border: 1px solid black;
+	
+	}
+	
+	tr:nth-child(odd) {
+		background-color: lavenderblush;
+	
+	}
+	
+	tr:nth-child(even) {
+		background-color: lavender;
+	
+	}
+	
+	
+	td {
+		padding: 5px 10px;
+	}
+	
+	
+
+</style>
+
+</head>
+<body>
+
+22_jQuery_Ajax1.html
+
+<h2>Ajax를 이용해서 비동기 방식으로 xml 파일 읽어오기</h2>
+
+<fieldset>
+	<legend><b>사원 정보 조회</b></legend>
+	<input type="text" name="empid"/>
+	<input id="emp_search" type="button" value="조회"/>
+</fieldset><br/>
+
+<table>
+	<tr>
+		<th>사원번호</th>
+		<td><input type="text" name="idx"/></td>
+	</tr>
+	<tr>
+		<th>이름</th>
+		<td><input type="text" name="name"/></td>
+	</tr>
+	<tr>
+		<th>이메일</th>
+		<td><input type="text" name="email" size="40"/></td>
+	</tr>
+	<tr>
+		<th>내선번호</th>
+		<td><input type="text" name="phone"/></td>
+	</tr>
+	<tr>
+		<th>입사일</th>
+		<td><input type="text" name="hire"/></td>
+	</tr>
+</table>
+
+
+</body>
+</html>

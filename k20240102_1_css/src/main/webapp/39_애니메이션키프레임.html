@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>애니메이션 - 키프레임</title>
+
+<style type="text/css">
+
+	/* 
+		@keyframes : 2개 이상의 애니메이션 중간 상태(프레임)를 "%" 단위로 지정한다.
+		@keyframes 애니메이션이름 {
+			keyframe% {
+				...
+			}
+			....
+			keyframe% {
+				...
+			}
+		}
+	
+	 */
+	 
+	 @keyframes first-animation {
+	 	0% {
+			width: 100px;
+			background-color: lavenderblush;	 	
+	 	}
+	 	
+	 	50% {
+	 		width: 500px;
+	 		background-color: lavender;
+	 	}
+	 	
+	 	100% {
+	 		width: 300px;
+	 		background-color: thistle;
+	 	}
+	 }
+	 
+	 .box {
+	 	width: 100px;
+	 	height: 100px;
+	 	background-color: lavenderblush;
+	 	border-radius: 25px;
+	 }
+	 
+	 .box:hover {
+		 animation: first-animation 2s infinite alternate;
+	 }
+	 
+
+</style>
+
+</head>
+<body>
+
+<div class="box"></div>
+
+</body>
+</html>

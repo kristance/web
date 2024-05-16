@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>캡션, 컬럼</title>
+<link rel="stylesheet" href="./css/23_tableStyle.css">
+</head>
+<body>
+
+<!--
+	<caption> 태그는 표의 설명 또는 제목을 넣는다.
+	<caption> 태그는 하나의 표에 하나의 <caption>만 사용한다.
+	<caption> 태그를 넣는 위치는 일반적으로 <table> 태그 바로 아래에 넣어서 사용하지만 바로 아래가
+	아니라도 상관없다.
+	캡션이 표시되는 기본 위치는 표 위에 표시되지만 align="bottom" 속성을 지정하면 캡션이 표시되는
+	위치가 표 아래가 된다.
+-->
+
+<table id="table" border="1">
+	<caption align="top">데이터 타입과 값</caption>
+	<tr class="tr">
+		<th class="th" rowspan="2">데이터</th>
+		<td class="td">타입</td>
+		<td class="td">알파벳</td>
+		<td class="td">숫자</td>
+	</tr>
+	<tr class="tr">
+		<td class="td">값</td>
+		<td class="td">A</td>
+		<td class="td">0</td>
+	</tr>
+</table><br/><hr/><br/>
+
+<table border="1">
+	<caption align="top">데이터 타입과 값</caption>
+	
+	<!-- <col> 태그는 표의 1열 전체를 의미하며, 열에 속하는 셀들에 공통된 의미를 부여한다. -->
+	<col width="150" bgcolor="tomato"/> <!-- 1열 -->
+	<col width="100" bgcolor="hotpink"/> <!-- 2열 -->
+	<col width="100" bgcolor="yellowgreen"/> <!-- 3열 -->
+	<col width="100" bgcolor="dodgerblue"/> <!-- 4열 -->
+	
+	<tr>
+		<th rowspan="2">데이터</th>
+		<td>타입</td>
+		<td>알파벳</td>
+		<td>숫자</td>
+	</tr>
+	<tr>
+		<td>값</td>
+		<td>A</td>
+		<td>0</td>
+	</tr>
+</table><br/><hr/><br/>
+
+<table border="1">
+	<caption align="top">데이터 타입과 값</caption>
+	
+	<!-- <colgroup> 태그는 같은 작업을 실행하는 <col> 태그를 그룹으로 묶는다. -->
+	<colgroup>
+		<col width="150" bgcolor="tomato"/>
+		<!--
+		<col width="100" bgcolor="hotpink"/>
+		<col width="100" bgcolor="hotpink"/>
+		<col width="100" bgcolor="hotpink"/>
+ 		-->
+ 		<!-- span 속성으로 같은 의미가 연속적으로 부여되는 열의 개수를 지정한다. -->
+		<col width="100" bgcolor="yellowgreen" span="3"/>
+ 		</colgroup>
+	
+	<tr>
+		<th rowspan="2">데이터</th>
+		<td>타입</td>
+		<td>알파벳</td>
+		<td>숫자</td>
+	</tr>
+	<tr>
+		<td>값</td>
+		<td>A</td>
+		<td>0</td>
+	</tr>
+</table>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

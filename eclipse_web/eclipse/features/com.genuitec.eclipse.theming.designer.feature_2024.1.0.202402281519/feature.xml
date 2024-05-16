@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.genuitec.eclipse.theming.designer.feature"
+      label="DevStyle - Icon Designer"
+      version="2024.1.0.202402281519"
+      provider-name="CodeTogether Inc.">
+
+   <description url="https://www.genuitec.com/products/webclipse/">
+      The DevStyle Icon Designer feature provides a mechanism for contributing new icons to the DevStyle themes including the #1 Darkest Dark theme.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license>
+      %license
+   </license>
+
+   <includes
+         id="com.genuitec.eclipse.theming.core.feature"
+         version="2024.1.0.202402281519"/>
+
+   <plugin
+         id="com.genuitec.eclipse.theming.icon.designer"
+         download-size="157"
+         install-size="313"
+         version="2024.1.0.202402281519"
+         unpack="false"/>
+
+</feature>

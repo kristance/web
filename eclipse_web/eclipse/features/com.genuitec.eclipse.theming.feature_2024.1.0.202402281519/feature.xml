@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.genuitec.eclipse.theming.feature"
+      label="DevStyle with CodeTogether Bundle"
+      version="2024.1.0.202402281519"
+      provider-name="CodeTogether Inc.">
+
+   <description url="https://marketplace.eclipse.org/content/darkest-dark-theme-devstyle">
+      DevStyle provides themes &amp; more to enhance Eclipse’s style, including
+the #1 Darkest Dark theme.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license>
+      %license
+   </license>
+
+   <includes
+         id="com.genuitec.eclipse.theming.core.feature"
+         version="2024.1.0.202402281519"/>
+
+   <requires>
+      <import feature="com.genuitec.eclipse.codetogether.feature" version="1.0.0" match="greaterOrEqual"/>
+   </requires>
+
+</feature>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>grid 컨테이너 속성 - 행, 열 이름 지정</title>
+<style type="text/css">
+	/*
+		grid-template-rows : 명시적 행의 크기를 지정한다. 행의 크기를 지정할 때 행의 이름도 정의할 수 있다.
+			-> grid-template-rows : 1행크기 2행 크기 ...
+			-> grid-template-rows : repeat(반복횟수 크기)
+			-> grid-template-rows : [선이름] 1행크기 [선이름] 2행 크기 ...
+		grid-template-column : 명시적 열의 크기를 지정한다. 열의 크기를 지정할 때 열의 이름도 정의할 수 있다.
+			-> grid-template-column : 1열크기 2열 크기 ...
+			-> grid-template-column : repeat(반복횟수 크기)
+			-> grid-template-column : [선이름] 1열크기 [선이름]2열 크기 ...
+	*/
+	
+	
+	.container {
+		width: 600px;
+		border: 4px solid black;
+		display: grid;
+		grid-template-rows: repeat(3, 100px);
+		grid-template-columns: 1fr [center-start]1fr [center-end]1fr;
+		grid-auto-flow: row dense;
+	}
+	
+	.container > .item {
+		border: 4px solid crimson;
+	}
+	
+	.container > .item:nth-child(1) {
+		/* grid-column: 2 / 3; */
+		grid-column: center-start / center-end;
+		background-color: lemonchiffon;
+	}
+	
+</style>
+
+
+</head>
+<body>
+
+<div class="container">
+	<div class="item">1</div>
+	<div class="item">2</div>
+	<div class="item">3</div>
+	<div class="item">4</div>
+	<div class="item">5</div>
+</div><br/>
+
+</body>
+</html>

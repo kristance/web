@@ -1,0 +1,154 @@
+
+1월 02, 2024 10:25:11.59 NEW SESSION
+1월 02, 2024 10:25:11.60 [12464:10868:0102/102511.590:ERROR:device_event_log_impl.cc(192)] [10:25:11.589] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 02, 2024 10:26:12.50 [12464:10868:0102/102612.506:ERROR:device_event_log_impl.cc(192)] [10:26:12.505] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 02, 2024 10:29:23.54 [12464:10868:0102/102923.549:ERROR:device_event_log_impl.cc(192)] [10:29:23.549] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 02, 2024 10:52:51.01 [6424:15064:0102/105251.019:ERROR:device_event_log_impl.cc(192)] [10:52:51.017] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 02, 2024 13:39:24.04 [2836:15284:0102/133924.048:ERROR:device_event_log_impl.cc(192)] [13:39:24.048] Bluetooth: bluetooth_adapter_winrt.cc:1058 Getting Default Adapter failed.
+1월 02, 2024 14:05:37.76 [2836:15284:0102/140537.761:ERROR:interface_endpoint_client.cc(702)] Message 0 rejected by interface blink.mojom.WidgetHost
+1월 02, 2024 14:14:00.61 [2836:15284:0102/141400.613:ERROR:sharing_service.cc(250)] Device un-registration failed with fatal error
+
+1월 02, 2024 15:18:06.07 NEW SESSION
+1월 02, 2024 15:18:06.08 [14408:11528:0102/151806.067:ERROR:interface_endpoint_client.cc(702)] Message 0 rejected by interface blink.mojom.WidgetHost
+1월 02, 2024 15:27:22.12 [14408:11528:0102/152722.128:ERROR:interface_endpoint_client.cc(702)] Message 0 rejected by interface blink.mojom.WidgetHost
+1월 02, 2024 17:03:58.71 [3412:6992:0102/170358.710:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.162 s for first_image_paint 0.156 s
+1월 02, 2024 17:03:58.95 [3412:6992:0102/170358.958:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.162 s for first_image_paint 0.156 s
+1월 02, 2024 17:03:59.07 [3412:6992:0102/170359.071:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.162 s for first_image_paint 0.156 s
+1월 02, 2024 17:03:59.29 [3412:6992:0102/170359.290:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.162 s for first_image_paint 0.156 s
+1월 02, 2024 17:03:59.40 [3412:6992:0102/170359.407:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.162 s for first_image_paint 0.156 s
+1월 02, 2024 17:03:59.51 [3412:6992:0102/170359.515:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.162 s for first_image_paint 0.156 s
+1월 02, 2024 17:03:59.65 [3412:6992:0102/170359.658:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.162 s for first_image_paint 0.156 s
+1월 02, 2024 17:03:59.79 [3412:6992:0102/170359.799:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.162 s for first_image_paint 0.156 s
+1월 02, 2024 17:03:59.91 [3412:6992:0102/170359.916:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.162 s for first_image_paint 0.156 s
+1월 02, 2024 17:04:00.06 [3412:6992:0102/170400.065:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.162 s for first_image_paint 0.156 s
+1월 02, 2024 17:04:00.18 [3412:6992:0102/170400.186:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.162 s for first_image_paint 0.156 s
+1월 02, 2024 17:04:00.58 [3412:6992:0102/170400.584:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.162 s for first_image_paint 0.156 s
+1월 02, 2024 17:04:00.73 [3412:6992:0102/170400.733:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.162 s for first_image_paint 0.156 s
+1월 02, 2024 17:04:01.07 [3412:6992:0102/170401.072:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.162 s for first_image_paint 0.156 s
+1월 02, 2024 17:04:01.21 [3412:6992:0102/170401.215:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.162 s for first_image_paint 0.156 s
+1월 02, 2024 17:04:01.88 [3412:6992:0102/170401.880:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.162 s for first_image_paint 0.156 s
+1월 02, 2024 17:04:02.00 [3412:6992:0102/170402.001:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.162 s for first_image_paint 0.156 s
+1월 02, 2024 17:04:02.25 [3412:6992:0102/170402.255:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.162 s for first_image_paint 0.156 s
+1월 02, 2024 17:04:02.57 [3412:6992:0102/170402.574:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.162 s for first_image_paint 0.156 s
+1월 02, 2024 17:04:02.71 [3412:6992:0102/170402.718:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.162 s for first_image_paint 0.156 s
+1월 02, 2024 17:04:02.83 [3412:6992:0102/170402.836:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.162 s for first_image_paint 0.156 s
+1월 02, 2024 17:04:02.88 [3412:6992:0102/170402.888:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.162 s for first_image_paint 0.156 s
+1월 02, 2024 17:05:07.46 [3412:6992:0102/170507.461:ERROR:interface_endpoint_client.cc(702)] Message 0 rejected by interface blink.mojom.WidgetHost
+1월 02, 2024 17:05:26.35 [3412:6992:0102/170526.355:ERROR:CONSOLE(0)] "Error in event handler: Error: Assertion failed
+1월 02, 2024 17:05:26.35     at assert (chrome://extensions/extensions.js:195:55)
+1월 02, 2024 17:05:26.35     at ExtensionsManagerElement.removeItem_ (chrome://extensions/extensions.js:3617:7168)
+1월 02, 2024 17:05:26.35     at ExtensionsManagerElement.onItemStateChanged_ (chrome://extensions/extensions.js:3617:4402)", source: chrome://extensions/ (0)
+
+1월 03, 2024 10:50:26.02 NEW SESSION
+1월 03, 2024 10:50:26.03 [15204:10828:0103/105026.015:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 03, 2024 10:50:29.22 [15204:10828:0103/105029.223:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 03, 2024 10:50:31.63 [15204:10828:0103/105031.630:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 03, 2024 10:50:42.25 [15204:10828:0103/105042.256:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 03, 2024 10:50:46.19 [15204:10828:0103/105046.197:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 03, 2024 11:09:58.08 [4332:10496:0103/110958.080:ERROR:interface_endpoint_client.cc(702)] Message 0 rejected by interface blink.mojom.WidgetHost
+1월 03, 2024 11:50:19.93 [13816:7696:0103/115019.939:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 03, 2024 12:29:04.70 [13816:7696:0103/122904.702:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+1월 03, 2024 14:35:32.81 NEW SESSION
+1월 03, 2024 14:35:32.82 [9084:13660:0103/143532.817:ERROR:device_event_log_impl.cc(192)] [14:35:32.815] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 03, 2024 15:19:45.77 [14264:15208:0103/151945.769:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 03, 2024 17:32:11.62 [7536:1496:0103/173211.628:ERROR:device_event_log_impl.cc(192)] [17:32:11.628] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 03, 2024 17:44:34.67 [12760:11464:0103/174434.676:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 03, 2024 17:44:40.23 [12760:11464:0103/174440.234:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 03, 2024 17:44:40.83 [12760:11464:0103/174440.831:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 03, 2024 17:44:46.75 [12760:11464:0103/174446.749:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 03, 2024 17:44:55.94 [12760:11464:0103/174455.941:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+
+1월 04, 2024 09:33:56.73 NEW SESSION
+1월 04, 2024 09:33:56.74 [6380:2796:0104/093356.733:ERROR:device_event_log_impl.cc(192)] [09:33:56.733] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 04, 2024 09:47:32.67 [6380:2796:0104/094732.678:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.156 s for first_image_paint 0.139 s
+1월 04, 2024 09:47:32.88 [6380:2796:0104/094732.886:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.156 s for first_image_paint 0.139 s
+1월 04, 2024 09:47:32.98 [6380:2796:0104/094732.988:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.156 s for first_image_paint 0.139 s
+1월 04, 2024 09:47:33.12 [6380:2796:0104/094733.127:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.156 s for first_image_paint 0.139 s
+1월 04, 2024 09:47:33.62 [6380:2796:0104/094733.626:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.156 s for first_image_paint 0.139 s
+1월 04, 2024 09:47:33.74 [6380:2796:0104/094733.749:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.156 s for first_image_paint 0.139 s
+1월 04, 2024 09:47:34.04 [6380:2796:0104/094734.048:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.156 s for first_image_paint 0.139 s
+1월 04, 2024 09:47:34.26 [6380:2796:0104/094734.260:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.156 s for first_image_paint 0.139 s
+1월 04, 2024 09:47:34.59 [6380:2796:0104/094734.598:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.156 s for first_image_paint 0.139 s
+1월 04, 2024 09:47:34.74 [6380:2796:0104/094734.742:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.156 s for first_image_paint 0.139 s
+1월 04, 2024 09:47:34.86 [6380:2796:0104/094734.869:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.156 s for first_image_paint 0.139 s
+1월 04, 2024 09:47:35.18 [6380:2796:0104/094735.180:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.156 s for first_image_paint 0.139 s
+1월 04, 2024 09:47:35.34 [6380:2796:0104/094735.340:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.156 s for first_image_paint 0.139 s
+1월 04, 2024 09:47:35.46 [6380:2796:0104/094735.468:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.156 s for first_image_paint 0.139 s
+1월 04, 2024 09:47:35.67 [6380:2796:0104/094735.671:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.156 s for first_image_paint 0.139 s
+1월 04, 2024 09:47:35.86 [6380:2796:0104/094735.860:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.156 s for first_image_paint 0.139 s
+1월 04, 2024 09:47:35.96 [6380:2796:0104/094735.964:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.156 s for first_image_paint 0.139 s
+1월 04, 2024 09:47:36.08 [6380:2796:0104/094736.084:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.156 s for first_image_paint 0.139 s
+1월 04, 2024 09:47:36.19 [6380:2796:0104/094736.193:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.156 s for first_image_paint 0.139 s
+1월 04, 2024 09:47:36.32 [6380:2796:0104/094736.326:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.156 s for first_image_paint 0.139 s
+1월 04, 2024 09:47:36.46 [6380:2796:0104/094736.461:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.156 s for first_image_paint 0.139 s
+1월 04, 2024 09:47:36.69 [6380:2796:0104/094736.699:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.156 s for first_image_paint 0.139 s
+1월 04, 2024 09:47:36.89 [6380:2796:0104/094736.894:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.156 s for first_image_paint 0.139 s
+1월 04, 2024 09:47:37.03 [6380:2796:0104/094737.032:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.156 s for first_image_paint 0.139 s
+1월 04, 2024 09:47:37.14 [6380:2796:0104/094737.146:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.156 s for first_image_paint 0.139 s
+1월 04, 2024 09:47:37.28 [6380:2796:0104/094737.282:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.156 s for first_image_paint 0.139 s
+1월 04, 2024 09:47:37.44 [6380:2796:0104/094737.448:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.156 s for first_image_paint 0.139 s
+1월 04, 2024 09:47:37.55 [6380:2796:0104/094737.555:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.156 s for first_image_paint 0.139 s
+1월 04, 2024 09:47:37.71 [6380:2796:0104/094737.717:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.156 s for first_image_paint 0.139 s
+1월 04, 2024 09:47:37.76 [6380:2796:0104/094737.768:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.156 s for first_image_paint 0.139 s
+1월 04, 2024 10:37:04.23 [13832:244:0104/103704.232:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 04, 2024 12:43:28.42 [2692:16648:0104/124328.423:ERROR:device_event_log_impl.cc(192)] [12:43:28.421] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 04, 2024 13:52:18.59 [2692:16648:0104/135218.589:ERROR:device_event_log_impl.cc(192)] [13:52:18.589] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 04, 2024 14:30:08.05 [2692:16648:0104/143008.053:ERROR:device_event_log_impl.cc(192)] [14:30:08.013] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 04, 2024 15:04:48.24 [3568:2596:0104/150448.247:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 04, 2024 15:04:48.88 [3568:2596:0104/150448.885:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 04, 2024 15:11:00.11 [3568:2596:0104/151100.113:ERROR:device_event_log_impl.cc(192)] [15:11:00.112] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+
+1월 05, 2024 09:47:57.00 NEW SESSION
+1월 05, 2024 09:47:57.01 [5904:5040:0105/094757.004:ERROR:device_event_log_impl.cc(192)] [09:47:57.003] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 05, 2024 10:07:06.25 [5904:5040:0105/100706.253:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 05, 2024 12:46:38.15 [16096:2124:0105/124638.158:ERROR:device_event_log_impl.cc(192)] [12:46:38.158] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+
+1월 05, 2024 15:03:19.69 NEW SESSION
+1월 05, 2024 15:03:19.71 [15268:17472:0105/150319.694:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 05, 2024 15:03:19.71 [15268:17472:0105/150319.694:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 05, 2024 17:51:28.01 [2728:7808:0105/175128.012:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+
+1월 08, 2024 09:34:17.29 NEW SESSION
+1월 08, 2024 09:34:17.30 [13652:2308:0108/093417.290:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 08, 2024 09:34:39.67 [13652:2308:0108/093439.679:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 08, 2024 09:34:42.08 [13652:2308:0108/093442.083:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 08, 2024 09:34:44.62 [13652:2308:0108/093444.627:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 08, 2024 10:12:09.38 [7176:5940:0108/101209.387:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 08, 2024 10:12:27.77 [7176:5940:0108/101227.776:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 08, 2024 10:12:29.13 [7176:5940:0108/101229.134:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 08, 2024 10:12:30.27 [7176:5940:0108/101230.278:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 08, 2024 10:12:31.41 [7176:5940:0108/101231.416:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 08, 2024 10:13:28.21 [7176:5940:0108/101328.217:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 08, 2024 10:13:30.30 [7176:5940:0108/101330.307:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 08, 2024 10:13:30.91 [7176:5940:0108/101330.917:ERROR:CONSOLE(0)] "ReferenceError: dragEvent is not defined", source:  (0)
+1월 08, 2024 10:24:11.19 [7176:5940:0108/102411.198:ERROR:interface_endpoint_client.cc(702)] Message 0 rejected by interface blink.mojom.WidgetHost
+1월 08, 2024 10:40:51.27 [14716:12548:0108/104051.270:ERROR:device_event_log_impl.cc(192)] [10:40:51.267] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 08, 2024 11:00:19.92 [14716:8088:0108/110019.920:ERROR:cert_verify_proc_builtin.cc(705)] CertVerifyProcBuiltin for miui.eu failed:
+1월 08, 2024 11:00:19.92 ----- Certificate i=0 (CN=*.parkingcrew.net,O=Team Internet AG,L=M\C3\BCnchen,ST=Bayern,C=DE) -----
+1월 08, 2024 11:00:19.92 ERROR: Time is after notAfter
+1월 08, 2024 11:00:19.92 
+1월 08, 2024 11:00:19.92 
+
+1월 08, 2024 13:42:57.61 NEW SESSION
+1월 08, 2024 13:42:57.62 [15664:8280:0108/134257.613:ERROR:device_event_log_impl.cc(192)] [13:42:57.611] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 08, 2024 13:44:20.41 [15664:8280:0108/134420.413:ERROR:device_event_log_impl.cc(192)] [13:44:20.412] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 08, 2024 13:45:34.99 [15664:8280:0108/134534.997:ERROR:device_event_log_impl.cc(192)] [13:45:34.996] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+1월 08, 2024 13:47:20.03 [15664:8280:0108/134720.031:ERROR:device_event_log_impl.cc(192)] [13:47:20.031] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+
+1월 08, 2024 14:47:59.27 NEW SESSION
+1월 08, 2024 14:47:59.29 [13608:13400:0108/144759.275:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+1월 08, 2024 15:03:21.43 [13608:13400:0108/150321.438:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+1월 08, 2024 17:08:55.77 NEW SESSION
+1월 08, 2024 17:08:55.79 [16840:16844:0108/170855.777:ERROR:device_event_log_impl.cc(192)] [17:08:55.776] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+
+2월 06, 2024 15:06:21.54 NEW SESSION
+2월 06, 2024 15:06:21.55 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+2월 13, 2024 09:50:40.96 NEW SESSION
+2월 13, 2024 09:50:40.97 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+2월 21, 2024 17:20:30.03 NEW SESSION
+2월 21, 2024 17:20:30.04 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+2월 21, 2024 17:21:20.70 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.

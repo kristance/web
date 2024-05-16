@@ -1,0 +1,84 @@
+<%@page import="java.util.Calendar"%>
+<%@page import="java.util.Date"%>
+<%@page import="com.tjoeun.MyCalendar.MyCalendar"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>만년 달력</title>
+
+<style type="text/css">
+	
+	table {
+	
+	
+	}
+	
+	tr {
+		height: 70px; /* 행 높이 */
+	
+	
+	}
+	
+	th#title {
+		font-size: 30px; /* 글꼴 크기 */
+		font-family: noto sans mono; /* 글꼴 이름 */
+		font-weight: bold; /* 굵게 */
+		color: mediumpurple; /* 글자 색*/
+		
+		
+	}
+	
+	th#sunday {
+		color: red;
+	}
+	
+	th#saturday {
+		color: cyan;
+	}
+
+</style>
+
+
+</head>
+<body>
+
+<%
+// 달력 메소드 테스트
+//	out.println(MyCalendar.isLeapYear(2023));
+//	out.println(MyCalendar.lastDay(2023,12));
+//	out.println(MyCalendar.totalDay(2023, 12, 26));
+//	out.println(MyCalendar.weekDay(2023, 12, 26));
+
+//	컴퓨터 시스템의 년, 월을 얻어온다.
+//	Date date = new Date();
+//	int year  = date.getYear() + 1900;
+//	int month = date.getMonth() + 1;
+	Calendar calendar = Calendar.getInstance();
+	int year  = calendar.get(Calendar.YEAR);
+	int month = calendar.get(calendar.MONTH) + 1;
+//	out.println(year + "년" + month + "월");
+%>
+
+<table border="1" width="700" align="center" cellspacing="0" cellpadding="5">
+	<tr>
+		<th id="title" colspan="7">
+			<%=year%>년 <%=month%>월
+		</th>
+	</tr>
+	<tr>
+		<th id="sunday" width="100">일</th>
+		<th width="100">월</th>
+		<th width="100">화</th>
+		<th width="100">수</th>
+		<th width="100">목</th>
+		<th width="100">금</th>
+		<th id="saturday" width="100">토</th>
+	</tr>
+</table>
+
+
+</body>
+</html>

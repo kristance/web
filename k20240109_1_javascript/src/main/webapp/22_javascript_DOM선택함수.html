@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>javascript DOM선택함수</title>
+
+<script type="text/javascript" src="./js/javascript22.js" defer="defer"></script>
+
+</head>
+
+
+<body>
+
+22_javascript_DOM선택함수.html
+
+<p id="test" class="test" onclick="searchID()">
+	1. getElementById() : 인수로 지정된 id 속성을 가지는 객체를 얻어온다.<br/>
+	&nbsp;&nbsp;&nbsp; 같은 화면에 같은 id 요소가 여러개 있다면 첫번쨰 요소 1개만 선택된다.
+</p>
+
+<p id="test" class="test" onclick="searchName()">
+	2. getElementsByName() : 인수로 지정된 name 속성을 가지는 모든 객체들을 배열로 얻어온다.<br/>
+	&nbsp;&nbsp;&nbsp; 같은 화면에 같은 name 속성을 가지는 요소가 여러개 있다면 모두 선택된다.<br/>
+	&nbsp;&nbsp;&nbsp; 선택된 각각의 객체에 접근하려면 배열이므로 인덱스를 이용해서 접근한다.<br/>
+	&nbsp;&nbsp;&nbsp; <input type="text" name="test" size="30"/><br/>
+	&nbsp;&nbsp;&nbsp; <input type="text" name="test" size="30"/><br/>
+	&nbsp;&nbsp;&nbsp; <input type="text" name="test" size="30"/><br/>
+</p>
+
+<p id="test" class="test" onclick="searchTagName()">
+	3. getElementsByTagName() : 인수로 지정된 모든 tag 객체들을 배열로 얻어온다. <br/>
+	&nbsp;&nbsp;&nbsp; 같은 화면에 같은 tag 요소가 여러개 있다면 모두 선택된다.<br/>
+	&nbsp;&nbsp;&nbsp; 선택된 각각의 객체에 접근하려면 배열이므로 인덱스를 이용해서 접근한다.<br/>
+</p>
+
+<p id="test" class="test" onclick="searchClass()">
+	4. getElementsByClassName() : 인수로 지정된 class 속성을 가지는 모든 객체들을 배열로 얻어온다
+	&nbsp;&nbsp;&nbsp; 같은 화면에 같은 class 속성을 가지는 요소가 여러개 있다면 모두 선택된다.<br/>
+	&nbsp;&nbsp;&nbsp; 선택된 각각의 객체에 접근하려면 배열이므로 인덱스를 이용해서 접근한다.<br/>
+</p>
+
+<p id="test" class="test" onclick="searchCSSSelector()">
+	5. querySelector() : css 선택자를 이용해서 첫번째 요소 1개를 얻어온다. -> id 탐색에 사용된다.<br/>
+	6. querySelectorAll() : css 선택자를 이용해서 모든 요소 찾아 배열로 얻어온다. <br/>
+	&nbsp;&nbsp;&nbsp&nbsp;-> tag, class 탐색에 사용된다.<br/>
+	7. querySelector(), querySelectorAll() 함수의 인수로 id를 지정할 때에는 '#'으로 시작하고,<br/>
+	&nbsp;&nbsp;&nbsp;class를 지정할 때에는 '.'으로 시작하고, tag는 아무것도 붙이지 않는다.<br/>
+</p>
+
+
+</body>
+</html>

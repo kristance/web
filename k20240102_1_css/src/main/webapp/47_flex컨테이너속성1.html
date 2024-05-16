@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>flex 컨테이너 속성 - display</title>
+
+<style type="text/css">
+
+	/*
+		display : flex 컨테이너를 정의한다.
+			-> flex : block 특성을 가지는 flex 컨테이너를 만든다. ; flex 내부 아이템들은 수평으로 흐르고 컨테이너들은 block 특성으로 쌓이는 특성을 가짐.
+			-> inline-flex : inline-block 특성을 가지는 flex 컨테이너를 만든다.
+	*/
+	
+	.container1 {
+		border: 4px solid black;
+		display: flex;
+	}
+	
+	.container1 > .item {
+		width: 100px;
+		height: 100px;
+		border: 4px solid red;
+		border-radius: 19px;
+		font-size: 25px;
+		
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.container2 {
+		border: 4px solid black;
+		display: inline-flex;
+	}
+	
+	.container2 > .item {
+		width: 100px;
+		height: 100px;
+		border: 4px solid blue ;
+		border-radius: 19px;
+		font-size: 25px;
+		
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+
+
+
+</style>
+
+
+</head>
+<body>
+
+
+<div class="container1">
+	<div class="item">1</div>
+	<div class="item">2</div>
+	<div class="item">3</div>
+</div>
+
+<div class="container1">
+	<div class="item">1</div>
+	<div class="item">2</div>
+	<div class="item">3</div>
+</div>
+
+<div class="container1">
+	<div class="item">1</div>
+	<div class="item">2</div>
+	<div class="item">3</div>
+</div>
+<br/>
+<hr/>
+<br/>
+
+<div class="container2">
+	<div class="item">1</div>
+	<div class="item">2</div>
+	<div class="item">3</div>
+</div>
+
+<div class="container2">
+	<div class="item">1</div>
+	<div class="item">2</div>
+	<div class="item">3</div>
+</div>
+
+<div class="container2">
+	<div class="item">1</div>
+	<div class="item">2</div>
+	<div class="item">3</div>
+</div>
+
+</body>
+</html>

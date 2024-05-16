@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?compositeMetadataRepository version='1.0.0'?>
+<repository name='&quot;Certiv Tools&quot;'
+		type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository'
+		version='1.0.0'>
+
+	<properties size='1'>
+		<property name='p2.timestamp' value='145640177'/>
+	</properties>
+
+	<children size='14'>
+		<child location='file:net.certiv.callgraph.site/'/>
+		<child location='file:net.certiv.codechase.site/'/>
+		<child location='file:net.certiv.jdoceditor.site'/>
+		<child location='file:net.certiv.ntail.site'/>
+
+		<child location='file:net.certiv.tools.site/'/>
+		<child location='file:net.certiv.tools.indentguide.site'/>
+
+		<child location='file:net.certiv.dsl.site'/>
+		<child location='file:net.certiv.dsl.jdt.site'/>
+		<child location='file:net.certiv.dsl.spy.site'/>
+
+		<child location='file:net.certiv.antlr.dt.site'/>
+		<child location='file:net.certiv.st.dt.site'/>
+		<child location='file:net.certiv.xvisitor.dt.site'/>
+
+		<child location='file:net.certiv.fluent.dt.site'/>
+		<child location='file:net.certiv.spellchecker.site'/>
+	</children>
+
+</repository>

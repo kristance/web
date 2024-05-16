@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>grid item 단위 - fr, min-content, max-content </title>
+<style type="text/css">
+	/*
+		fr : fr(fractional unit)은 사용 가능한 공간에 대한 비율을 의미한다.
+		min-content : item이 포함하는 내용의 최소 크기를 지정한다.
+		max-content : item이 포함하는 내용의 최대 크기를 지정한다.
+	*/
+	
+	.container1 {
+		width: 900px;
+		height: 200px;
+		border: 4px solid black;
+		display: grid;
+		
+		/*
+			고정 크기를 가장 먼저 할당하기때문에 3열에 100px을 할당한다.
+			4열에 전체 900px 중에서 3열에 할당한 100px을 제외한 800px의 25%인 200px을 할당한다.
+			공간 분할을 가장 마지막에 할당하기때문에 3열, 4열에 할당한 300px을 제외한 남은 공간에서 1열에
+			1/3(200px)을 할당하고 2열에 2/3(400px)을 할당한다.
+		*/
+		grid-template-columns : 1fr 2fr 100px 25%;
+		
+	}
+	
+	.container1 > .item {
+		border: 4px solid crimson;
+		font-size : 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.container2 {
+		width: 900px;
+		height: 200px;
+		border: 4px solid black;
+		display: grid;
+		
+		/* grid-template-columns : max-content max-content; */ /* 전체 문장 길이에 맞춘다. */
+		grid-template-columns : min-content min-content; /* 가장 긴 단어의 길이에 맞춘다. */
+		
+	}
+	
+	.container2 > .item {
+		border: 4px solid crimson;
+	}
+	
+	.container3 {
+		width: 900px;
+		height: 200px;
+		border: 4px solid black;
+		display: grid;
+		
+		/* grid-template-columns : max-content max-content; */
+		/*
+			min-content 단위는 영문은 단어 단위로 길이가 설정되지만, 한글은 단어 단위가 아닌 음절 단위로
+			크기를 잡는다.
+			한글에 정상적으로 min-content가 단어 단위로 적용되게 하려면 word-break : keep-all 속성을 추가한다.
+		*/
+		 grid-template-columns : min-content min-content; 
+		 word-break : keep-all;
+	}
+	
+	.container3 > .item {
+		border: 4px solid crimson;
+	}
+
+
+</style>
+
+</head>
+<body>
+
+<div class="container1">
+	<div class="item">1</div>
+	<div class="item">2</div>
+	<div class="item">3</div>
+	<div class="item">4</div>
+</div><br/>
+
+<div class="container2">
+	<div class="item">hellow world</div>
+	<div class="item">Learn what HTML landmark roles are, how they improve accessibility, and how you can include them on your website effectively.</div>
+	<div class="item">3</div>
+	<div class="item">4</div>
+</div><br/>
+
+<div class="container3">
+	<div class="item">무궁화 삼천리 화려강산, 대한 사람 대한으로 길이 보전하세.</div>
+	<div class="item">2</div>
+	<div class="item">3</div>
+	<div class="item">4</div>
+</div><br/>
+
+</body>
+</html>

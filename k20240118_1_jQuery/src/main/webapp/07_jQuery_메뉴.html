@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery - 메뉴</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="./js/jQuery07.js" defer> </script>
+
+<style type="text/css">
+	a {
+		color: thistle;
+		text-decoration: none;
+	}
+	
+	.menu {
+		width: 150px;
+		border: 1px solid lavender;
+		background-color: lavender;
+	}
+	
+	.menu:hover {
+		width: 200px;
+		background-color: lavender;
+	}
+
+</style>
+
+
+</head>
+<body>
+
+07_jQuery_메뉴.html
+
+<h2>메뉴</h2>
+
+<div class="menu">
+	<!-- 
+		target 속성으로 하이퍼링크 페이지가 열리는 방법을 지정할 수 있다.
+		target="_self" : 기본값, 현재 창에 하이퍼링크로 연결된 문서를 열리게 한다.
+		target="_blank" : 새 탭에 하이퍼링크로 연결된 문서르 열리게 한다.
+	 -->
+	<a href="./08_jQuery_DOM탐색1.html" >필터링 함수1</a>
+	<div>first()</div>
+	<div>eq()</div>
+	<div>slice()</div>
+	<div>last()</div>
+</div><br/>
+
+<div class="menu">
+	<a href="./09_jQuery_DOM탐색2.html">필터링 함수2</a>
+	<div>find()</div>
+	<div>child()</div>
+	<div>parent()</div>
+	<div>parents()</div>
+	<div>next()</div>
+	<div>prev()</div>
+</div><br/>
+
+<div class="menu">
+	<a href="./10_jQuery_DOM탐색3.html">필터링 함수3</a>
+	<div>add()</div>
+	<div>is()</div>
+</div><br/>
+
+
+</body>
+</html>

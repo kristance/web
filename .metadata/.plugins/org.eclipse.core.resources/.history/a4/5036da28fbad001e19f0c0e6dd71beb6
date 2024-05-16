@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>부트스트랩 웹 페이지</title>
+<!-- 파비콘 -->
+<link rel="icon" href="./images/logo.png"/>
+<!-- 
+	name="viewport" : 사이트에 접속한 장치의 해상도에 맞게 웹사이트를 보여주겠다는 의미이다.
+	content="width=device-width, initial-scale=1.0" : 웹사이트의 너비는 웹사이트를 보는 장치에 맞게
+													사용한다는 의미이다.
+ -->
+<meta name="viewport" content="width=device-width, inicial-scale=1.0"> <!-- 반응형 웹 -->
+</head>
+<body>
+
+</body>
+</html>

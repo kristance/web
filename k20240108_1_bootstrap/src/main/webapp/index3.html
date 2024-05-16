@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>부트스트랩 웹 페이지</title>
+<link rel="icon" href="./images/logo.png"/>
+<meta name="viewport" content="width=device-width, inicial-scale=1.0">
+<link rel="stylesheet" href="./css/bootstrap.min.css"/>
+
+<style type="text/css">
+	.jumbotron {
+		background-image: url("./images/jumbotronBackground.jpg");
+		background-size: cover;
+		color: white;
+		text-shadow: 0.2em 0.2em 0.2em black;
+	}
+</style>
+
+<script type="text/javascript" src="./js/jquery-3.7.1.js"></script>
+<script type="text/javascript" src="./js/bootstrap.js"></script>
+
+</head>
+<body>
+ 
+ <header>
+ 	<nav class="container navbar navbar-inverse">
+ 		<div class="container-fluid">
+ 		
+ 			<div class="navbar-header">
+ 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-toggle" aria-expanded="false">
+ 					<span class="sr-only"></span>
+	 				<span class="icon-bar"></span>
+	 				<span class="icon-bar"></span>
+ 					<span class="icon-bar"></span>
+ 				</button>
+ 			</div>
+ 		
+ 		<div class="collapse navbar-collapse" id="nav-toggle">
+ 		
+ 			<ul class="nav navbar-nav">
+ 				<li><a href="#">소개</a></li>
+ 				<li><a href="#">강사</a></li>
+ 				<li class="dropdown">
+ 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+ 						aria-expanded="false">
+ 						강의보기
+ 						<span class="caret"></span>
+ 					</a>
+ 					<ul class="dropdown-menu">
+		 				<li><a href="#">C언어</a></li>
+		 				<li><a href="#">java</a></li>
+		 				<li><a href="#">android</a></li>
+ 					</ul>
+ 				</li>
+ 			</ul>
+ 			
+ 			<form class="navbar-form navbar-right" action="?">
+ 				<div class="form-group">
+ 					<input class="form-control" type="text" placeholder="Insert for Search Content">
+ 				</div>
+ 			<button class="btn btn-info" type="button">검색</button>
+ 			</form>
+ 			
+ 		<ul class="nav navbar-nav navbar-right">
+ 			<li class="dropdown">
+ 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+ 						aria-expanded="false">
+ 						들어가보기
+ 						<span class="caret"></span>
+ 					</a>
+ 					<ul class="dropdown-menu">
+		 				<li><a href="#">로그인</a></li>
+		 				<li><a href="#">회원가입</a></li>
+ 					</ul>
+ 				</li>
+ 		</ul> <!-- nav navbar-nav navbar-right -->
+ 		
+	 		</div> <!-- collapse navbar-collapse -->
+ 		</div> <!-- container-fluid -->
+ 	</nav> <!-- container navbar navbar-inverse -->
+ </header>
+ 
+ <div class="container">
+ 	<div class="jumbotron">
+ 		<h1 class="text-center"> 뽀로로가 좋아하는 홈페이지</h1>
+ 		<p class="text-center">
+ 			뽀로로가 좋아하는 홈페이지는 코딩 교육 사이트입니다. 뽀로로도 배울수 있는 코딩 사이트입니다.
+ 		</p>
+ 		<p class="text-center">
+ 			<a class="btn btn-danger btn-lg" href="#" role="button"> 보러가자!!!!!!</a>
+ 		</p>
+ 	</div> <!-- jumbotron -->
+ </div> <!-- container -->
+ 
+ <!--
+ 	풋터
+ 	풋터는 홈페이지의 기타 정보를 보여주는 역할을 하는 일반적으로 홈페이지 가장 아래쪽에 위치하는 저작권, 
+ 	개발자, 내비게이션 등을 포함한다.
+ -->
+ 
+ <footer>
+ 	<div class="container">
+ 		<!--
+ 			row 클래스는 영역을 12개의 공간으로 나눈 다음 col-xs, col-sm, col-md, col-lg에 지정한 숫자만큼의
+ 			크기를 표시 영역의 크기로 사용한다. -> 숫자의 합은 12를 넘어가면 안된다.
+ 			열(col-*-*)의 구성 -> https://poiemaweb.com/bootstrap-grid-system 참조
+ 			열은 행(.row) 내부에 배치해야 하고 col-*-숫자 형태의 클래스로 열을 배치하는데, 첫번째 "*"에는 xs, sm, md, lg 중
+ 			하나를 지정하고 두번째 "*"에는 사용할 숫자를 입력한다.
+ 			
+ 			==============================================================================================================
+                       Extra small devices  Small devices Tablets  Medium devices Desktops  Large devices Desktops
+                       Phones(0 ~ 767px)      (768 ~ 991px)        (992 ~ 1199px)         (1200px ~)
+         ==============================================================================================================
+         Grid behavior     항상 수평 적용      viewport 너비가 breakpoint 이상이면 수평 적용, 미만이면 stack
+         Container width     None(auto)         750px              970px                  1170px
+         Class prefix     .col-xs-            .col-sm-              .col-md-               .col-lg-
+         ==============================================================================================================
+ 		-->
+ 		<div class="row" style="background-color: darkgrey; color: #FFFFFF">
+ 			
+ 			<!-- 2 -->
+ 			<div class="col-sm-2 text-center">
+ 				<h5>Copyright &copy;</h5>
+ 				<h5>뽀로로(Pororo)</h5>
+ 			</div>
+ 			<!-- 4 -->
+ 			<div class="col-sm-4">
+ 				<h5>대표자 소개</h5>
+ 				<h5>
+ 					노는게 제일 좋은 뽀로로입니다.<br/>
+ 					코딩도 열심히 가르치는 뽀로로입니다.
+ 				</h5>
+ 			</div>
+ 			<!-- 2 -->
+ 			<div class="col-sm-2 text-center">
+ 				<h5>내비게이션</h5>
+ 				<div class="list-group">
+ 					<a href="#" class="list-group-item">소개</a>
+ 					<a href="#" class="list-group-item">강사</a>
+ 					<a href="#" class="list-group-item">강의보기</a>
+ 				</div>
+ 			</div>
+ 			<!-- 2 -->
+ 			<div class="col-sm-2 text-center">
+ 				<h5>SNS</h5>
+ 				<div class="list-group">
+ 					<a href="#" class="list-group-item">Facebook</a>
+ 					<a href="#" class="list-group-item">Youtube</a>
+ 					<a href="#" class="list-group-item">Instagram</a>
+ 				</div>
+ 			</div>
+ 			<!-- 2 -->
+ 			<div class="col-sm-2 text-center">
+ 				<h5>
+ 					<!-- glyphicon 참조 : https://www.w3schools.com/icons/bootstrap_icons_glyphicons.asp -->
+ 					<span class="glyphicon glyphicon-forward"></span>&nbsp;&nbsp;by 뽀로로
+ 				</h5>
+ 			</div>
+ 			
+ 		</div>
+ 	</div> <!-- container -->
+ </footer>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+package com.tjoeun.myCalendar;
+
+//	양력 날짜와 양력 날짜에 해당되는 음력 날짜를 기억하는 클래스
+public class LunarDate {
+	
+	private int year; // 양력 년
+	private int month; // 양력 월
+	private int day; // 양력 일
+	private int 
+	
+	
+	
+	
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>flex 컨테이너 속성 - 교차(보조)축</title>
+
+<style type="text/css">
+
+	/*
+		align-items 교차 축의 item 정렬 방법을 지정한다. item이 1줄 이상으로 표시되는 경우 사용한다.
+			-> stretch : item의 height 속성값이 지정되지 않을 경우 컨테이너의 교차축에 가득차게 item을 늘려준다.
+			-> flex-start : 기본값, flex-direction 속성이 row면 item을 컨테이너 위쪽에 맞추고, column이면 컨테이너 왼쪽에 맞춘다.
+			-> flex-end :  flex-direction 속성이 row면 item을 컨테이너 아래쪽에 맞추고, column이면 컨테이너 오른쪽에 맞춘다.
+			-> center : item을 교차축의 가운데로 맞춘다.
+			-> baseline : item내부에 입력된 문자 기준선(문자의 맨 아래)에 맞춘다.
+	*/
+	
+	.container1 {
+		width : 400px;
+		height : 200px;
+		border: 4px solid black;
+		font-size: 25px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		flex-wrap:nowrap; /* 전체 item 폭의 합계가 컨테이너의 폭보다 커도 1줄로 표시된다. */
+		
+		align-items: stretch;
+	}
+	
+	.container1 > .item {
+		width: 100px;
+		/* height: 100px; */ /* align-items : stretch는 item의 높이가 없어야한다. */
+		border: 4px solid red;
+		border-radius: 19px;
+		background-color:lightyellow;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.container2 {
+		width : 400px;
+		height : 200px;
+		border: 4px solid black;
+		font-size: 25px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		/* flex-wrap:nowrap; */
+		
+		align-items: flex-start;
+	}
+	
+	.container2 > .item {
+		width: 100px;
+		height: 100px; /* align-items : stretch는 item의 높이가 없어야한다. */
+		border: 4px solid red;
+		border-radius: 19px;
+		background-color:lightyellow;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	
+	.container3 {
+		width : 400px;
+		height : 200px;
+		border: 4px solid black;
+		font-size: 25px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		
+		align-items: flex-end;
+	}
+	
+	.container3 > .item {
+		width: 100px;
+		height: 100px; /* align-items : stretch는 item의 높이가 없어야한다. */
+		border: 4px solid red;
+		border-radius: 19px;
+		background-color:lightyellow;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.container4 {
+		width : 400px;
+		height : 200px;
+		border: 4px solid black;
+		font-size: 25px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		
+		align-items: center;
+	}
+	
+	.container4 > .item {
+		width: 100px;
+		height: 100px; /* align-items : stretch는 item의 높이가 없어야한다. */
+		border: 4px solid red;
+		border-radius: 19px;
+		background-color:lightyellow;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	
+	.container5 {
+		width : 400px;
+		height : 200px;
+		border: 4px solid black;
+		font-size: 25px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		
+		align-items: baseline;
+	}
+	
+	.container5 > .item {
+		width: 100px;
+		height: 100px; /* align-items : stretch는 item의 높이가 없어야한다. */
+		border: 4px solid red;
+		border-radius: 19px;
+		background-color:lightyellow;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.container5 > .item:nth-child(2) {
+		font-size: 80px;
+	}
+	
+	.container5 > .item:nth-child(4) {
+		font-size: 50px;
+	}
+	
+</style>
+
+</head>
+<body>
+
+stretch
+<div class="container1">
+	<div class="item">1</div>
+	<div class="item">2</div>
+	<div class="item">3</div>
+	<div class="item">4</div>
+	<div class="item">5</div>
+</div><br/>
+
+flex-start
+<div class="container2">
+	<div class="item">1</div>
+	<div class="item">2</div>
+	<div class="item">3</div>
+	<div class="item">4</div>
+	<div class="item">5</div>
+</div><br/>
+
+flex-end
+<div class="container3">
+	<div class="item">1</div>
+	<div class="item">2</div>
+	<div class="item">3</div>
+	<div class="item">4</div>
+	<div class="item">5</div>
+</div><br/>
+
+center
+<div class="container4">
+	<div class="item">1</div>
+	<div class="item">2</div>
+	<div class="item">3</div>
+	<div class="item">4</div>
+	<div class="item">5</div>
+</div><br/>
+
+baseline
+<div class="container5">
+	<div class="item">1</div>
+	<div class="item">2</div>
+	<div class="item">3</div>
+	<div class="item">4</div>
+	<div class="item">5</div>
+</div><br/>
+
+</body>
+</html>

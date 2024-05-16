@@ -1,0 +1,3 @@
+requires.0.namespace=com.genuitec.codetogether
+requires.0.name=codetogether.client
+requires.0.range=[$version$,$version$]

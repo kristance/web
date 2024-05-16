@@ -1,0 +1,21 @@
+ #table {
+ 	border-collapse: collapse; /* 셀 사이의 빈 여백을 없애고 합친다. */
+ }
+ 
+ .tr {
+ 	height: 50px;
+ }
+ 
+ th.th {
+ 	background-color: hotpink;
+ 	width: 150px;
+ 	border: 2px solid dodgerblue;
+ }
+ 
+ td.td {
+ 	background-color: chocolate;
+ 	width: 100px;
+ 	border: 2px dashed lime;
+ 	text-align: center;
+ }
+ 

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.genuitec.eclipse.theming.core.feature"
+      label="DevStyle (includes Darkest Dark Theme)"
+      version="2024.1.0.202402281519"
+      provider-name="CodeTogether Inc.">
+
+   <description url="https://marketplace.eclipse.org/content/darkest-dark-theme-devstyle">
+      DevStyle provides themes &amp; more to enhance Eclipse's style, including
+the #1 Darkest Dark theme.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="">
+      %license
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.nebula.widgets.gallery" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.platform" version="4.6.0" match="greaterOrEqual"/>
+      <import plugin="org.apache.httpcomponents.httpclient"/>
+      <import plugin="org.apache.httpcomponents.httpcore"/>
+   </requires>
+
+   <plugin
+         id="com.genuitec.eclipse.core.common.platform"
+         download-size="154"
+         install-size="276"
+         version="2024.1.0.202402281519"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.ui.common.platform"
+         download-size="363"
+         install-size="672"
+         version="2024.1.0.202402281519"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.patches"
+         download-size="70"
+         install-size="140"
+         version="2024.1.0.202402281519"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.core.common.rss"
+         download-size="1643"
+         install-size="1855"
+         version="2024.1.0.202402281519"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.startup"
+         download-size="2149"
+         install-size="2893"
+         version="2024.1.0.202402281519"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.theming.base.mac"
+         os="macosx"
+         ws="cocoa,win32"
+         arch="x86_64"
+         download-size="12"
+         install-size="14"
+         version="2024.1.0.202402281519"
+         fragment="true"/>
+
+   <plugin
+         id="com.genuitec.eclipse.theming.base.win"
+         os="win32"
+         ws="win32"
+         arch="x86,x86_64"
+         download-size="16"
+         install-size="27"
+         version="2024.1.0.202402281519"
+         fragment="true"/>
+
+   <plugin
+         id="com.genuitec.eclipse.startup"
+         download-size="2149"
+         install-size="2893"
+         version="2024.1.0.202402281519"
+         unpack="false"/>
+         
+   <plugin
+         id="com.genuitec.eclipse.json.simple"
+         download-size="35"
+         install-size="47"
+         version="2024.1.0.202402281519"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.startup.workspace"
+         download-size="49"
+         install-size="91"
+         version="2024.1.0.202402281519"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.theming.epl"
+         download-size="398"
+         install-size="771"
+         version="2024.1.0.202402281519"/>
+
+   <plugin
+         id="com.genuitec.eclipse.theming.base"
+         download-size="83"
+         install-size="189"
+         version="2024.1.0.202402281519"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.webclipse.evergreen"
+         download-size="132"
+         install-size="263"
+         version="2024.1.0.202402281519"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.theming.css"
+         download-size="40"
+         install-size="153"
+         version="2024.1.0.202402281519"/>
+
+   <plugin
+         id="com.genuitec.eclipse.theming.scrollbar"
+         download-size="362"
+         install-size="896"
+         version="2024.1.0.202402281519"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.theming.scrollbar.mac"
+         os="macosx"
+         ws="cocoa"
+         arch="x86_64"
+         download-size="14"
+         install-size="17"
+         version="2024.1.0.202402281519"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.theming.ui"
+         download-size="1435"
+         install-size="1967"
+         version="2024.1.0.202402281519"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipsecolortheme.api"
+         download-size="139"
+         install-size="334"
+         version="2024.1.0.202402281519"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.theming.scrollbar.win"
+         os="win32"
+         ws="win32"
+         arch="x86,x86_64"
+         download-size="27"
+         install-size="74"
+         version="2024.1.0.202402281519"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.theming.elevation.win32"
+         os="win32"
+         arch="x86_64"
+         download-size="151"
+         install-size="280"
+         version="2024.1.0.202402281519"/>
+
+   <plugin
+         id="com.genuitec.eclipse.meexplorer"
+         download-size="139"
+         install-size="280"
+         version="2024.1.0.202402281519"
+         unpack="false"/>
+         
+   <plugin
+         id="com.genuitec.eclipse.meexplorer.jdt"
+         download-size="58"
+         install-size="115"
+         version="2024.1.0.202402281519"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.inlinesearch"
+         download-size="110"
+         install-size="213"
+         version="2024.1.0.202402281519"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.theming.core"
+         download-size="486"
+         install-size="2200"
+         version="2024.1.0.202402281519"
+         unpack="false"/>
+
+   <plugin
+         id="com.genuitec.eclipse.webicons"
+         download-size="672"
+         install-size="1360"
+         version="2024.1.0.202402281519"
+         unpack="false"/>
+
+</feature>

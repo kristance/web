@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>label button</title>
+</head>
+<body>
+
+<!--
+	<label> 태그는 폼을 구성하는 컨트롤을 제목으로 참조할 수 있게 한다.
+	서로 다른 구역에 있는 제목과 컨트롤은 <label> 태그의 for 속성을 사용해 컨트롤의 id를 참조시킨다.
+-->
+
+<form action="?">
+	<!-- <label> 태그에 포함, 같은 구역에 문자열과 컨트롤이 있는 경우 -->
+	<label>
+		이름: <input type="text" name="name"/>
+	</label>
+	<label>
+		<input type="checkbox" name="check" value="OK"/> 동의
+	</label><br/>
+	
+	<!-- <label> 태그의 for 속성으로 id 참조, 다른 구역에 문자열과 컨트롤이 있는 경우 -->
+	<table border="1">
+		<tr>
+			<td>
+				<label for="age">나이</label>
+			</td>
+			<td>
+				<input id="age" type="number" name="age" value="0"/>
+			</td>
+		</tr>
+	</table><br/>
+	
+	<!--
+		<button> 태그는 버튼을 만든다. 기본값은 submit 이다.
+		버튼 종류는 submit(전송, 제출), reset(취소, 다시쓰기), button(일반 버튼)
+	-->
+	
+	<input type="submit" value="로그인"/>
+	<button type="submit">로그인</button><br/>
+	
+	<input type="reset" value="다시쓰기"/>
+	<button type="reset">다시쓰기</button><br/>
+	
+	<!-- type="button"일 경우 onclick 이벤트로 동작(자바스크립트 함수)을 지정해서 사용한다. -->
+	<input type="button" value="눌러봐1" onclick="doit1()"/>
+	<button type="button" onclick="doit2()">눌러봐2</button>
+</form>
+
+<script type="text/javascript">
+//	일반 함수
+	function doit1() {
+		alert('눌러봐1 버튼을 눌렀습니다.');
+	}
+
+//	화살표 함수
+	var doit2 = () => alert('눌러봐2 버튼을 눌렀습니다.');
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

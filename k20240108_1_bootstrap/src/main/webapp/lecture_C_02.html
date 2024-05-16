@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>부트스트랩 웹페이지</title>
+<link rel="icon" href="./images/logo.png"/>
+<meta name="viewport" content="width=device-width, inicial-scale=1.0">
+<link rel="stylesheet" href="./css/bootstrap.min.css"/>
+
+<style type="text/css">
+	.jumbotron {
+		background-image: url("./images/jumbotronBackground.jpg");
+		background-size: cover;
+		color: white;
+		text-shadow: 0.2em 0.2em 0.2em black;
+	}
+</style>
+
+<script type="text/javascript" src="./js/jquery-3.7.1.js"></script>
+<script type="text/javascript" src="./js/bootstrap.js"></script>
+
+</head>
+<body>
+ 
+ <header>
+ 	<nav class="container navbar navbar-inverse">
+ 		<div class="container-fluid">
+ 		
+ 			<div class="navbar-header">
+ 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-toggle" aria-expanded="false">
+ 					<span class="sr-only"></span>
+	 				<span class="icon-bar"></span>
+	 				<span class="icon-bar"></span>
+ 					<span class="icon-bar"></span>
+ 				</button>
+ 			</div>
+ 		
+ 		<div class="collapse navbar-collapse" id="nav-toggle">
+ 		
+ 			<ul class="nav navbar-nav">
+ 				<li><a href="./index5.html">메인으로</a></li>
+ 				<li><a href="./instructor.html">강사</a></li>
+ 				<li class="dropdown">
+ 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+ 						aria-expanded="false">
+ 						강의보기
+ 						<span class="caret"></span>
+ 					</a>
+ 					<ul class="dropdown-menu">
+		 				<li><a href="./lecture.html?lectureName=C">C언어</a></li>
+		 				<li><a href="./lecture.html?lectureName=Java">java</a></li>
+		 				<li><a href="./lecture.html?lectureName=Android">android</a></li>
+ 					</ul>
+ 				</li>
+ 			</ul>
+ 			
+ 			<form class="navbar-form navbar-right" action="?">
+ 				<div class="form-group">
+ 					<input class="form-control" type="text" placeholder="Insert for Search Content">
+ 				</div>
+ 			<button class="btn btn-info" type="button">검색</button>
+ 			</form>
+ 			
+		 		<ul class="nav navbar-nav navbar-right">
+		 			<li class="dropdown">
+		 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+		 						aria-expanded="false">
+		 						들어가보기
+		 						<span class="caret"></span>
+		 					</a>
+		 					<ul class="dropdown-menu">
+				 				<li><a href="./loginForm.html">로그인</a></li>
+				 				<li><a href="./registerForm.html">회원가입</a></li>
+		 					</ul>
+		 				</li>
+		 		</ul>
+	 		</div>
+ 		</div>
+ 	</nav> 
+ </header>
+ 
+ <div class="container">
+ 	<!-- 여기부터 -->
+ 	<div class="row"></div>
+ 		<div class="col-lg-12">
+ 			<div class="panel panel-info">
+ 				<div class="panel-heading">
+ 					<div class="panel-title">
+ 						<span class="glyphicon glyphicon-th-list"></span>&nbsp;강의목록
+ 					</div>
+ 				</div>
+ 			</div>
+ 		</div>
+ 		<!--
+ 			리스트 그룹
+ 			같은 성질을 가지는 목록을 담는 그룹을 의미하며 각각의 정보는 자유롭게 링크를 가지는 형태로
+ 			들어갈 수 있다.
+ 		-->
+ 	<div class="row"></div>
+ 		<div class="col-lg-12">
+ 			<ul class="list-group">
+ 				<a class="list-group-item" href="./lecture.html">1강, Hello World</a>
+ 				<a class="list-group-item active" href="#">2강, 상수와 변수</a>
+ 				<a class="list-group-item" href="#">3강, 데이터 타입</a>
+ 				<a class="list-group-item" href="#">4강, 연산자</a>
+ 				<a class="list-group-item" href="#">5강, 제어문</a>
+ 			</ul>
+ 		</div>
+ 	</div>
+ 	<!--
+ 		유튜브 동영상 링크 설정하기
+ 		Bootstrap은 자신의 웹사이트에 유튜브 동영상을 불러오는 embed-responsive-item 클래스를 제공한다.
+ 	-->
+ 	
+ 	<div class="row">
+ 		<div class="col-lg-12 embed-responsive embed-responsive-16by9">
+ 			<!--
+ 				유튜브 동영상 연결은 연결할 동영상 주소 https://www.youtube.com/watch?v=2ok4O6ALu8o에서
+ 				"watch?v=" 부분을 "embed/"로 수정해야 한다.
+ 				
+ 			-->
+ 			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2ok4O6ALu8o?si=Hz_gzzrlHokj40GK"></iframe>
+ 		</div>
+ 	</div>
+ 	<!-- 여기까지 lecture.html에 코딩해 넣는 내용 -->
+ </div><br/>
+ 
+ <footer>
+ 	<div class="container">
+ 		
+ 		<div class="row" style="background-color: darkgrey; color: #FFFFFF">
+ 			
+ 			<div class="col-sm-2 text-center">
+ 				<h5>Copyright &copy;</h5>
+ 				<h5>뽀로로(Pororo)</h5>
+ 			</div>
+ 			
+ 			<div class="col-sm-4">
+ 				<h5>대표자 소개</h5>
+ 				<h5>
+ 					노는게 제일 좋은 뽀로로입니다.<br/>
+ 					코딩도 열심히 가르치는 뽀로로입니다.
+ 				</h5>
+ 			</div>
+ 			
+ 			<div class="col-sm-2 text-center">
+ 				<h5>내비게이션</h5>
+ 				<div class="list-group">
+ 					<a href="./index5.html" class="list-group-item">메인으로</a>
+ 					<a href="./instructor.html" class="list-group-item">강사</a>
+ 					<a href="./lecture.html?lectureName=C" class="list-group-item">강의보기</a>
+ 				</div>
+ 			</div>
+ 			
+ 			<div class="col-sm-2 text-center">
+ 				<h5>SNS</h5>
+ 				<div class="list-group">
+ 					<a href="https://www.facebook.com" class="list-group-item">Facebook</a>
+ 					<a href="https://www.youtube.com" class="list-group-item">Youtube</a>
+ 					<a href="https://www.instagram.com" class="list-group-item">Instagram</a>
+ 				</div>
+ 			</div>
+ 			
+ 			<div class="col-sm-2 text-center">
+ 				<h5>
+ 					<span class="glyphicon glyphicon-forward"></span>&nbsp;&nbsp;by 뽀로로
+ 				</h5>
+ 			</div>
+ 			
+ 		</div>
+ 	</div> <!-- container -->
+ </footer>
+
+</body>
+</html>

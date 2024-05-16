@@ -1,0 +1,38 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>주민등록번호 유효성 검사</title>
+
+<script type="text/javascript">
+
+//	javascript keyboard 이벤트
+//	onkeypress : 키보드를 누르고 있을 때 실행되는 이벤트
+//	onkeydown : 키보드를 누르는 순간 실행되는 이벤트
+//			->	누른 키보드에 해당되는 문자가 입력되기 전에 실행된다.
+//	onkeyup : 키보드를 눌렀다가 손가락이 떨어지는 순간 실행되는 이벤트
+//			->	누른 키보드에 해당되는 문자 입력된 후 실행된다.
+
+//	이벤트가 실행되는 객체에 입력 가능한 최대 글자수만큼 문자가 입력되면 포커스를 넘겨줄 객체로
+//	포커스를 넘겨주는 함수
+//	moveNext(이벤트가 실행되는 객체, 입력가능한 최대 글자수, 포커스를 넘겨줄 객체)
+
+
+
+</script>
+
+</head>
+<body>
+
+<form action="juminFormOK.jsp" method="post">
+	<input type="text" name="j1" maxlength="6" placeholder="주민등록번호 앞자리"/>
+	-
+	<input type="text" name="j2" maxlength="7" placeholder="주민등록번호 뒷자리"/>
+	<input type="submit" value="검사하기"/>
+</form>
+
+
+</body>
+</html>
